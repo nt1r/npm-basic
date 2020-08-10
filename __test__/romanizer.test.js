@@ -1,4 +1,4 @@
-import {inputAnythingReturnX} from "../src/romanizer"
+import {inputAnythingReturnX} from "../src/romanizer";
 
 describe('romanizer', () => {
   it('should return X when input 10', () => {

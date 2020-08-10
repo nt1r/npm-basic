@@ -1,5 +1,7 @@
-const inputAnythingReturnX = (_) => {
-  return 'X';
+import romanize from 'romanize';
+
+const inputAnythingReturnX = (number) => {
+  return romanize(number);
 };
 
 export {
